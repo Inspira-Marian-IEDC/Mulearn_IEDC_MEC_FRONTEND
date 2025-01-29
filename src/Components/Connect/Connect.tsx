@@ -1,5 +1,5 @@
 import styles from "./Connect.module.css";
-import image from "./assets/image.svg";
+import image from "./assets/Saly phone dude.svg";
 import { Discord, Whatsapp } from "./assets/svg";
 import data from "../../../data.json"
 
@@ -7,7 +7,7 @@ const Connect = () => {
     return (
         <div id="contact" className={styles.ConnectWrapper}>
             <h1>Connect With Us</h1>
-            <div className={styles.contentWrapper}>
+            <div className={styles.content}>
                 <div className={styles.innerContent}>
                     <div>
                         <h2>Join µLearn {data.collegeCode} Discord server!</h2>
@@ -27,10 +27,10 @@ const Connect = () => {
                         </a>
                     </div>
                 </div>
-                <div>
+                <div className={styles.image}>
                     <img src={image} alt="" />
                 </div>
-            </div>
+                </div>
         </div>
     );
 };

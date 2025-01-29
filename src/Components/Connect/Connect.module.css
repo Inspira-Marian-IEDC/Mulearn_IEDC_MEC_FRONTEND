@@ -3,16 +3,12 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 0vh 10vw 5vh;
+  padding: 0vh 10vw;
   gap: 25px;
-}
-
-.contentWrapper {
-  display: flex;
-  width: 100%;
-  border: 2px solid #ae59ff;
-  border-radius: 10px;
-  height: 350px;
+  background-color: white; /* Fallback color */
+  background-image: url('./assets//hash-svgrepo-com.svg');
+  background-size: 20px 40px; /* Size of each hash character */
+  background-repeat: repeat; /* Repeat the background */
 }
 
 .ConnectWrapper h1 {
@@ -21,11 +17,11 @@
 }
 
 .innerContent {
-  padding: 7% 8%;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .innerContent h2 {
@@ -52,21 +48,28 @@
   width: fit-content;
   padding: 8px 20px;
   border-radius: 8px;
-  border: 2px solid #ae59ff;
+  border: 2px solid #B74FFA;
   font-size: 18px;
 }
 
 .discord {
-  background-color: #ae59ff;
+  background-color: #B74FFA;
   color: white;
 }
 
 .Whatsapp {
-  color: #ae59ff;
+  color: #B74FFA;
 }
 
 .contentWrapper img {
   height: 100%;
+  width: 150px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1250px) {
@@ -156,15 +159,14 @@
   }
 
   .innerContent {
-    align-items: center;
-    text-align: center;
-    padding: 5%;
-    gap: 20px;
+    width: 20%;
+    padding: 10px;
   }
 
   .contentWrapper img {
-    height: auto;
     width: 100%;
+    height: auto;
+    margin-top: 20px;
   }
 
   .socialMedia {
@@ -193,3 +195,4 @@
     font-size: 12px;
   }
 }
+
