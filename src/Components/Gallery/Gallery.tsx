@@ -1,8 +1,38 @@
+import { useEffect, useRef } from "react";
 import Marquee from "react-fast-marquee";
 import styles from "./Gallery.module.css";
 import data from '../../../data.json'
 
 const Gallery = () => {
+    const galleryRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const containers = entry.target.querySelectorAll(`.${styles.imgContainer}`);
+                        containers.forEach((container, index) => {
+                            setTimeout(() => {
+                                container.classList.add(styles.visible);
+                            }, index * 200); // Stagger the animations
+                        });
+                    }
+                });
+            },
+            {
+                threshold: 0.1,
+                rootMargin: '50px',
+            }
+        );
+
+        if (galleryRef.current) {
+            observer.observe(galleryRef.current);
+        }
+
+        return () => observer.disconnect();
+    }, []);
+
     const marqParams = {
         autoFill: true,
         pauseOnHover: true,
@@ -13,7 +43,7 @@ const Gallery = () => {
     };
 
     return (
-        <div className={styles.gallery} id="gallery">
+        <div className={styles.gallery} id="gallery" ref={galleryRef}>
             <div className={styles.titleWrapper}>
                 <h2>Memories</h2>
                 <div className={styles.titleDecoration}>
