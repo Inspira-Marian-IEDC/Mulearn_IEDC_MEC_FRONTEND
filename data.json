@@ -8,7 +8,42 @@
       "date": "13",
       "head": "Eden 3.0",
       "para": "It was a 24-hour coding event. Emphasised on collaboration, technical prowess, and personal growth.",
-      "img": "https://media.licdn.com/dms/image/D5622AQFcMBZHCSt5AA/feedshare-shrink_1280/0/1716286915632?e=1725494400&v=beta&t=oSzSh6VT41CSvQ3j4pqYE31R6IcBdsl3Zbu2sG9wjek"
+      "img": "public/Teamphoto/ux.jpg"
+    },
+    {
+      "month": "Oct",
+      "date": "08",
+      "head": "UXcelerate Bootcamp",
+      "para": "UXcelerate was a 14 day bootcamp focused on equipping students with the fundamentals of UI/UX design using Figma.Conducted in two phases the sessions provided a balance between conceptual learning and hands-on application",
+      "img": "public/Teamphoto/test.png"
+    },
+    {
+      "month": "Nov",
+      "date": "28",
+      "head": "Keyboard Mastery",
+      "para": "The keyboard mastery program was designed to enhance participants' typing proficiency and efficiency",
+      "img": "public/Teamphoto/keyboard.jpg"
+    },
+    {
+      "month": "Sep",
+      "date": "11",
+      "head": "Shalyam",
+      "para": "Shalyam is an open-themed ideathon where participants are free to pick any problem and come up with a realizable solution.",
+      "img": "public/Teamphoto/shalyam.jpg"
+    },
+    {
+      "month": "Aug",
+      "date": "10",
+      "head": "Lumina",
+      "para": "The event was held featuring Deepu S Nath, MD of Faya and CEO of mulearn as the keynote speaker, engaging the students in an interactive  session on technology and their implications for society and the IT industry.",
+      "img": "public/Teamphoto/lumina.jpg"
+    },
+    {
+      "month": "Aug",
+      "date": "24",
+      "head": "Version Control 101",
+      "para": "Version Control 101 was a session focused on Git and provided an introduction to the basics of version  Control",
+      "img": "public/Teamphoto/lumina.jpg"
     }
   ],
   "gallery": {
@@ -25,19 +60,28 @@
     ],
     "row2": [
       {
-        "image": "https://media.licdn.com/dms/image/D5622AQHeCjTeIHJzxw/feedshare-shrink_1280/0/1716715251252?e=1725494400&v=beta&t=fWUcP_SM5VwFBPBehaDDCgXC653Ch3uPFNPfD-jE2uQ"
+        "image": "public/Teamphoto/ux.jpg"
       },
       {
-        "image": "https://media.licdn.com/dms/image/D5622AQE_vRKy_cdjvg/feedshare-shrink_1280/0/1716715249910?e=1725494400&v=beta&t=ZhhJvr4ZEsZU3WsPqX0FyBsE5K-6EamvGpojqNbQPmE"
+        "image": "public/Teamphoto/keyboard.jpg"
       },
       {
-        "image": "https://media.licdn.com/dms/image/D5622AQHQZmVcpgTwZA/feedshare-shrink_1280/0/1716715251297?e=1725494400&v=beta&t=y35aJFaUSoSeArFrev_bsYnrRGjwrg6-ZfHDX2eyLpU"
+        "image": "public/Teamphoto/shalyam.jpg"
       },
       {
-        "image": "https://media.licdn.com/dms/image/D5622AQH6be6wsz-OBg/feedshare-shrink_2048_1536/0/1716286914858?e=1725494400&v=beta&t=g6keFa7E1bnqNYqhluZjtUw7RUUfxLyyjNH3-tl0HV0"
+        "image": "public/Teamphoto/lumina.jpg"
       },
       {
-        "image": "https://media.licdn.com/dms/image/D5622AQF1QqiBTiA2aQ/feedshare-shrink_2048_1536/0/1716286914919?e=1725494400&v=beta&t=gypbDLX9iUSUgQrys_EXRjuRNx852wUengl_blbfVxs"
+        "image": "public/Teamphoto/keyboard.jpg"
+      },
+      {
+        "image": "public/Teamphoto/geo.png"
+      },
+      {
+        "image": "public/Teamphoto/anas.png"
+      },
+      {
+        "image": "public/Teamphoto/advaitha.png"
       }
     ]
   },
