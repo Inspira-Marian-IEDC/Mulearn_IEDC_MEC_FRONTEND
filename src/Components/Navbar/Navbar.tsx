@@ -75,7 +75,11 @@ const Navbar = () => {
             </div>
 
             <div className={styles.navbarMobile}>
-                <button onClick={openMenu} className={styles.hamburger}>
+                <button 
+                    onClick={openMenu} 
+                    className={`${styles.hamburger} ${openmenu ? styles.close : ''}`}
+                    aria-label={openmenu ? "Close menu" : "Open menu"}
+                >
                     {openmenu ? <AiOutlineClose /> : <AiOutlineMenu />}
                 </button>
                 <div className={`${styles.mobileMenu} ${openmenu ? styles.open : ''}`}>
