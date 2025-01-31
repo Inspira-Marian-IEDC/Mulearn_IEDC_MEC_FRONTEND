@@ -12,6 +12,7 @@ import Team from "./Components/Team/Team";
 import Connect from "./Components/Connect/Connect";
 import Footer from "./Components/Footer/Footer";
 import PortalPage from "./PortalPage/PortalPage"; // Ensure this path is correct
+import UpcomingEvents from "./Components/Upcoming/UpcomingEvents";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                         <>
                             <Home />
                             <About />
+                            <UpcomingEvents/>
                             <Events />
                             <Gallery />
                             <Statistics />
