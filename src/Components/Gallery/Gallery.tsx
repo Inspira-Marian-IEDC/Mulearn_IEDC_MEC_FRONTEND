@@ -38,7 +38,7 @@ const Gallery = () => {
         pauseOnHover: true,
         speed: 35,
         gradient: true,
-        gradientColor: [255, 255, 255],
+        gradientColor: [255, 255, 255] as [number, number, number],
         gradientWidth: 100
     };
 
