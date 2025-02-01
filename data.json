@@ -48,21 +48,14 @@
   ],
   "upcoming": [
     {
-      "month": "May",
+      "month": "Feb",
       "date": "13",
       "head": "Eden 3.0",
       "para": "It was a 24-hour coding event. Emphasised on collaboration, technical prowess, and personal growth.",
       "img": "/Events/eden3.0.jpg",
       "link":""
-    },
-    {
-      "month": "Oct",
-      "date": "08",
-      "head": "UXcelerate Bootcamp",
-      "para": "UXcelerate was a 14 day bootcamp focused on equipping students with the fundamentals of UI/UX design using Figma.Conducted in two phases the sessions provided a balance between conceptual learning and hands-on application",
-      "img": "/Events/ux.jpg",
-      "link":""
     }
+   
     
   ],
   "gallery": {
