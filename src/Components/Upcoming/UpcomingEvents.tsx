@@ -8,23 +8,23 @@ const UpcomingEvents = () => {
       <div className={styles.innerDiv}>
         <button 
           className={`${styles.card} ${styles.large}`} 
-          onClick={() => window.location.href = data["events"][0].link}
+          onClick={() => window.location.href = data["upcoming"][0].link}
         >
           <div className={styles.content}>
             <div className={styles.date}>
-              <span>{data["events"][0].month}</span>
-              <span>{data["events"][0].date}</span>
+              <span>{data["upcoming"][0].month}</span>
+              <span>{data["upcoming"][0].date}</span>
             </div>
             <div className={styles.text}>
-              <strong>{data["events"][0].head}</strong>
-              <span>{data["events"][0].para}</span>
+              <strong>{data["upcoming"][0].head}</strong>
+              <span>{data["upcoming"][0].para}</span>
             </div>
           </div>
-          <img src={data["events"][0].img} alt="" />
+          <img src={data["upcoming"][0].img} alt="" />
         </button>
         
         <div className={styles.subContent}>
-          {data.events.slice(1).map((event, index) => (
+          {data.upcoming.slice(1).map((event, index) => (
             <button 
               className={`${styles.card} ${styles.small}`} 
               key={index} 

@@ -46,33 +46,58 @@
       "img": "/Events/ver101.jpg"
     }
   ],
+  "upcoming": [
+    {
+      "month": "May",
+      "date": "13",
+      "head": "Eden 3.0",
+      "para": "It was a 24-hour coding event. Emphasised on collaboration, technical prowess, and personal growth.",
+      "img": "/Events/eden3.0.jpg",
+      "link":""
+    },
+    {
+      "month": "Oct",
+      "date": "08",
+      "head": "UXcelerate Bootcamp",
+      "para": "UXcelerate was a 14 day bootcamp focused on equipping students with the fundamentals of UI/UX design using Figma.Conducted in two phases the sessions provided a balance between conceptual learning and hands-on application",
+      "img": "/Events/ux.jpg",
+      "link":""
+    }
+    
+  ],
   "gallery": {
     "row1": [
       {
-        "image": "https://mulearn.org/assets/home/illustration.webp"
+        "image": "/Memories/1.jpg"
       },
       {
-        "image": "https://mulearn.org/assets/home/Chart.webp"
+        "image": "/Memories/2.jpeg"
       },
       {
-        "image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
+        "image": "/Memories/3.jpeg"
+      },
+      {
+        "image": "/Memories/9.jpeg"
       }
     ],
     "row2": [
       {
-        "image": "/Events/ux.jpg"
+        "image": "/Memories/4.jpeg"
       },
       {
-        "image": "/Events/keyboard.jpg"
+        "image": "/Memories/5.jpeg"
       },
       {
-        "image": "public/Memories/1.jpg"
+        "image": "/Memories/6.jpeg"
       },
       {
-        "image": "/Events/lumina.jpg"
+        "image": "/Memories/7.jpeg"
       },
       {
-        "image": "/Events/keyboard.jpg"
+        "image": "/Memories/8.jpeg"
+      },
+      {
+        "image": "/Memories/10.jpeg"
       }
     ]
   },

@@ -108,6 +108,39 @@
   gap: .5rem;
   justify-content: space-between;
 }
+.card {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+  border: none; /* Explicitly remove any border */
+}
+
+.card:hover {
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card.large {
+  max-width: 500px;
+  width: 50%;
+  flex-wrap: wrap-reverse;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.card.small {
+  max-width: 700px;
+}
+
+/* Ensure images don't have borders */
+.card img {
+  border: none;
+}
+
 
 @media (max-width: 1050px) {
   .card .date {
