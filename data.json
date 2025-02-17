@@ -4,42 +4,42 @@
   "about": "At the intersection of creativity and technology, IEDC and µLearn have joined forces to craft a space where ideas come to life and learning knows no bounds. Our collaborative platform is designed to empower innovators, creators, and learners, providing them with the tools, resources, and community they need to thrive. Explore, engage, and elevate your potential with us as we drive forward the future of technology and education together.",
   "events": [
     {
-      "month": "May",
+      "month": "2024 May",
       "date": "13",
       "head": "Eden 3.0",
       "para": "It was a 24-hour coding event. Emphasised on collaboration, technical prowess, and personal growth.",
       "img": "/Events/eden3.0.jpg"
     },
     {
-      "month": "Oct",
+      "month": "2024 Oct",
       "date": "08",
       "head": "UXcelerate Bootcamp",
       "para": "UXcelerate was a 14 day bootcamp focused on equipping students with the fundamentals of UI/UX design using Figma.Conducted in two phases the sessions provided a balance between conceptual learning and hands-on application",
       "img": "/Events/ux.jpg"
     },
     {
-      "month": "Nov",
+      "month": "2024 Nov",
       "date": "28",
       "head": "Keyboard Mastery",
       "para": "The keyboard mastery program was designed to enhance participants' typing proficiency and efficiency",
       "img": "/Events/keyboard.jpg"
     },
     {
-      "month": "Sep",
+      "month": "2024 Sep",
       "date": "11",
       "head": "Shalyam",
       "para": "Shalyam is an open-themed ideathon where participants are free to pick any problem and come up with a realizable solution.",
       "img": "/Events/shalyam.jpg"
     },
     {
-      "month": "Aug",
+      "month": "2024 Aug",
       "date": "10",
       "head": "Lumina",
       "para": "The event was held featuring Deepu S Nath, Managing Director of Faya as the keynote speaker, engaging the students in an interactive  session on technology and their implications for society and the IT industry.",
       "img": "/Events/lumina.jpg"
     },
     {
-      "month": "Aug",
+      "month": "2024 Aug",
       "date": "24",
       "head": "Version Control 101",
       "para": "Version Control 101 was a session focused on Git and provided an introduction to the basics of version  Control",
@@ -71,7 +71,17 @@
       },
       {
         "image": "/Memories/9.jpeg"
+      },
+      {
+        "image": "/Memories/Tr11.jpeg"
+      },
+      {
+        "image": "/Memories/ed12.jpg"
+      },
+      {
+        "image": "/Memories/13.jpg"
       }
+       
     ],
     "row2": [
       {
@@ -91,6 +101,9 @@
       },
       {
         "image": "/Memories/10.jpeg"
+      },
+      {
+        "image": "/Memories/14.jpg"
       }
     ]
   },

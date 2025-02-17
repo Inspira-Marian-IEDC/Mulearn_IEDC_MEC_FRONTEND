@@ -212,10 +212,6 @@
     }
 }
 
-/* Add a slight wobble on hover */
-.imgContainer:hover {
-    animation: wobble 1s ease-in-out;
-}
 
 @keyframes wobble {
     0%, 100% {
